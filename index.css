@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background-color: lightsteelblue;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
 h1 {
     padding: 20px 20px 20px 30px;
 }
@@ -7,16 +15,28 @@ h1 {
 }
 
 ul {
-    padding: 0px 0px 0px 80px;
+    padding: 0px 0px 0px 70px;
 }
 
 li {
-    padding: 5px 0px;
+    padding: 10px 10px;
+    width: 250px;
+
+    background-color: rgb(78, 130, 182);
+    border-radius: 5px;
+    
+    margin: 10px 0px;
     font-weight: bolder;
+    list-style-type: none;
 }
 
 a {
     text-decoration: none;
+    color: rgb(216, 228, 249);
+}
+
+a:visited {
+    color: rgb(168, 190, 210);
 }
 
 h2 {
@@ -29,6 +49,10 @@ h3 {
 
 p {
     padding-left: 60px;
+}
+
+div {
+    padding-bottom: 10px;
 }
 
 .home {
